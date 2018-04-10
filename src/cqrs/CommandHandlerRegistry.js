@@ -1,5 +1,5 @@
 // @flow
-import CommandHandler from './CommandHandler';
+import CommandHandler from './command-handlers/CommandHandler';
 
 export class CommandHandlerRegistry {
 
@@ -9,11 +9,11 @@ export class CommandHandlerRegistry {
         if (this.registry[commandType]) {
             throw `A handler is already registered for command type ${commandType}`;
         }
-        this.registry.put(commandType, commandHandler);
+        this.registry[commandType] = commandHandler;
     }
 
     getCommandHandler(commandType: string): typeof CommandHandler {
-        const commandHandler: typeof CommandHandler = this.registry[commandType];
+        const commandHandler = this.registry[commandType];
         if (commandHandler == null) {
             throw `No handler registered for command type ${commandType}`;
         }
