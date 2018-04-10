@@ -3,17 +3,17 @@ import CommandHandler from './CommandHandler';
 
 export class CommandHandlerRegistry {
 
-    registry: { [string]: CommandHandler } = {};
+    registry: { [string]: typeof CommandHandler } = {};
 
-    addCommandHandler(commandType: string, commandHandler: CommandHandler) {
-        if (registry[commandType]) {
+    addCommandHandler(commandType: string, commandHandler: typeof CommandHandler) {
+        if (this.registry[commandType]) {
             throw `A handler is already registered for command type ${commandType}`;
         }
-        registry.put(commandType, commandHandler);
+        this.registry.put(commandType, commandHandler);
     }
 
-    getCommandHandler(commandType: string): CommandHandler {
-        const commandHandler: CommandHandler = registry[commandType];
+    getCommandHandler(commandType: string): typeof CommandHandler {
+        const commandHandler: typeof CommandHandler = this.registry[commandType];
         if (commandHandler == null) {
             throw `No handler registered for command type ${commandType}`;
         }
