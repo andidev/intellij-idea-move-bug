@@ -1,4 +1,3 @@
-// @flow
 export type Event = {
     aggregateId: string;
     correlationId: String;

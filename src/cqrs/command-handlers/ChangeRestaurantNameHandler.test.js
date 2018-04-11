@@ -3,13 +3,17 @@ const { it, expect } = global;
 import { ChangeRestaurantNameHandler } from './ChangeRestaurantNameHandler';
 import { ChangeRestaurantName } from '../commands/ChangeRestaurantName';
 
-it('test', () => {
+it('handle should handle command', () => {
 
     // Given
     const handler = new ChangeRestaurantNameHandler();
+    const command = new ChangeRestaurantName({
+        restaurantId: "123",
+        name: "Bra Hak"
+    });
 
     // When
-    handler.handle(new ChangeRestaurantName({restaurantId: "123", name: "Bra Hak"}));
+    handler.handle(command);
 
     // Then
     expect(true)

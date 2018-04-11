@@ -1,4 +1,6 @@
 // @flow
-export class Command {
+export type CommandType = string;
 
+export class Command {
+    commandType: CommandType;
 }

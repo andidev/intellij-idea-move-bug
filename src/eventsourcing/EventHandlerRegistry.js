@@ -1,4 +1,3 @@
-// @flow
 import EventHandler from './EventHandler';
 
 export class EventHandlerRegistry {

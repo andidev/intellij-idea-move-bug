@@ -1,7 +1,9 @@
 // @flow
 import { Command } from '../commands/Command';
+import type { CommandType } from '../commands/Command';
 
 export interface CommandHandler {
-    handle(command: Command): void
+    getCommandType(): CommandType;
+    handle(command: Command): void;
 }
 

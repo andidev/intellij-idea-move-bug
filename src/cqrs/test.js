@@ -1,7 +1,10 @@
-// // @flow
-// const { it, expect } = global;
-// import { CommandHandlerRegistry } from './CommandHandlerRegistry';
-// import { ChangeRestaurantNameHandler } from './command-handlers/ChangeRestaurantNameHandler';
+// @flow
+import { ChangeRestaurantName } from './commands/ChangeRestaurantName';
+
+const { it, expect } = global;
+import { CommandHandlerRegistry } from './CommandHandlerRegistry';
+import { ChangeRestaurantNameHandler } from './command-handlers/ChangeRestaurantNameHandler';
+import { Command } from './commands/Command';
 //
 // type Command = {
 //     commandType: string,
@@ -27,14 +30,13 @@
 //     }
 // }
 //
+
+
 //
 //
-//
-//
-// it('test', () => {
-//
-//     handler({commandType: "123", name: "asd"});
-//
-//     expect(true)
-//         .toBe(true);
-// });
+it('test', () => {
+
+    let command: Command = new ChangeRestaurantName({restaurantId: "", name: ""});
+    expect(command.commandType)
+        .toBe("ChangeRestaurantName");
+});

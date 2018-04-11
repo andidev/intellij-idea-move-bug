@@ -1,7 +1,10 @@
 // @flow
-import { Command } from './Command';
+import { Command, type CommandType } from './Command';
 
 export class ChangeRestaurantName extends Command {
+    static commandType: CommandType = 'ChangeRestaurantName';
+    commandType: CommandType = ChangeRestaurantName.commandType;
+
     restaurantId: string;
     name: string;
 

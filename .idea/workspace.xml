@@ -2,20 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bf5d5f56-e513-424e-9419-7fe6e3e6a438" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/cqrs/command-handlers/ChangeRestaurantNameHandler.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/cqrs/command-handlers/ChangeRestaurantNameHandler.test.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/cqrs/command-handlers/CommandHandler.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/cqrs/commands/ChangeRestaurantName.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/cqrs/commands/Command.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/cqrs/test.js" />
-      <change beforePath="$PROJECT_DIR$/.babelrc" afterPath="$PROJECT_DIR$/.babelrc" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/cqrs/commands/ChangeRestaurantName.test.js" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" afterPath="$PROJECT_DIR$/package-lock.json" />
-      <change beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
-      <change beforePath="$PROJECT_DIR$/src/cqrs/Command.js" afterPath="$PROJECT_DIR$/src/cqrs/CommandType.js" />
-      <change beforePath="$PROJECT_DIR$/src/cqrs/CommandHandler.js" afterPath="" />
       <change beforePath="$PROJECT_DIR$/src/cqrs/CommandHandlerRegistry.js" afterPath="$PROJECT_DIR$/src/cqrs/CommandHandlerRegistry.js" />
       <change beforePath="$PROJECT_DIR$/src/cqrs/CommandHandlerRegistry.test.js" afterPath="$PROJECT_DIR$/src/cqrs/CommandHandlerRegistry.test.js" />
+      <change beforePath="$PROJECT_DIR$/src/cqrs/CommandType.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/cqrs/command-handlers/ChangeRestaurantNameHandler.js" afterPath="$PROJECT_DIR$/src/cqrs/command-handlers/ChangeRestaurantNameHandler.js" />
+      <change beforePath="$PROJECT_DIR$/src/cqrs/command-handlers/ChangeRestaurantNameHandler.test.js" afterPath="$PROJECT_DIR$/src/cqrs/command-handlers/ChangeRestaurantNameHandler.test.js" />
+      <change beforePath="$PROJECT_DIR$/src/cqrs/command-handlers/CommandHandler.js" afterPath="$PROJECT_DIR$/src/cqrs/command-handlers/CommandHandler.js" />
+      <change beforePath="$PROJECT_DIR$/src/cqrs/commands/ChangeRestaurantName.js" afterPath="$PROJECT_DIR$/src/cqrs/commands/ChangeRestaurantName.js" />
+      <change beforePath="$PROJECT_DIR$/src/cqrs/commands/Command.js" afterPath="$PROJECT_DIR$/src/cqrs/commands/Command.js" />
+      <change beforePath="$PROJECT_DIR$/src/cqrs/test.js" afterPath="$PROJECT_DIR$/src/cqrs/test.js" />
+      <change beforePath="$PROJECT_DIR$/src/eventsourcing/Event.js" afterPath="$PROJECT_DIR$/src/eventsourcing/Event.js" />
+      <change beforePath="$PROJECT_DIR$/src/eventsourcing/EventHandler.js" afterPath="$PROJECT_DIR$/src/eventsourcing/EventHandler.js" />
+      <change beforePath="$PROJECT_DIR$/src/eventsourcing/EventHandlerRegistry.js" afterPath="$PROJECT_DIR$/src/eventsourcing/EventHandlerRegistry.js" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -26,11 +26,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/package.json">
+      <file leaf-file-name="ChangeRestaurantName.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/cqrs/commands/ChangeRestaurantName.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+            <state relative-caret-position="60">
+              <caret line="4" column="59" lean-forward="false" selection-start-line="4" selection-start-column="39" selection-end-line="4" selection-end-column="59" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ChangeRestaurantName.test.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/cqrs/commands/ChangeRestaurantName.test.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="17" column="36" lean-forward="false" selection-start-line="17" selection-start-column="36" selection-end-line="17" selection-end-column="36" />
               <folding />
             </state>
           </provider>
@@ -40,47 +50,29 @@
         <entry file="file://$PROJECT_DIR$/src/cqrs/commands/Command.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="45">
-              <caret line="3" column="1" lean-forward="false" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
+              <caret line="3" column="13" lean-forward="false" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="test.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/cqrs/test.js">
+      <file leaf-file-name="CommandHandler.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/cqrs/command-handlers/CommandHandler.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="248">
-              <caret line="24" column="32" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="60">
+              <caret line="4" column="17" lean-forward="false" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+              <folding>
+                <element signature="e#9#55#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CommandType.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/cqrs/CommandType.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="15" lean-forward="false" selection-start-line="2" selection-start-column="15" selection-end-line="2" selection-end-column="15" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ChangeRestaurantName.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/cqrs/commands/ChangeRestaurantName.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="1" lean-forward="false" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CommandHandlerRegistry.test.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="CommandHandlerRegistry.test.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/cqrs/CommandHandlerRegistry.test.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" column="8" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+            <state relative-caret-position="180">
+              <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
               <folding>
                 <element signature="e#40#106#0" expanded="true" />
               </folding>
@@ -91,8 +83,8 @@
       <file leaf-file-name="ChangeRestaurantNameHandler.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/cqrs/command-handlers/ChangeRestaurantNameHandler.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="59" lean-forward="false" selection-start-line="4" selection-start-column="59" selection-end-line="4" selection-end-column="59" />
+            <state relative-caret-position="90">
+              <caret line="6" column="58" lean-forward="false" selection-start-line="6" selection-start-column="58" selection-end-line="6" selection-end-column="58" />
               <folding>
                 <element signature="e#9#59#0" expanded="true" />
               </folding>
@@ -100,23 +92,25 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CommandHandler.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/cqrs/command-handlers/CommandHandler.js">
+      <file leaf-file-name="ChangeRestaurantNameHandler.test.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/cqrs/command-handlers/ChangeRestaurantNameHandler.test.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="15">
+              <caret line="1" column="30" lean-forward="false" selection-start-line="1" selection-start-column="30" selection-end-line="1" selection-end-column="30" />
+              <folding>
+                <element signature="e#40#116#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ChangeRestaurantNameHandler.test.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/cqrs/command-handlers/ChangeRestaurantNameHandler.test.js">
+      <file leaf-file-name="test.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/cqrs/test.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="15" lean-forward="false" selection-start-line="11" selection-start-column="15" selection-end-line="11" selection-end-column="15" />
+            <state relative-caret-position="324">
+              <caret line="40" column="35" lean-forward="false" selection-start-line="40" selection-start-column="35" selection-end-line="40" selection-end-column="35" />
               <folding>
-                <element signature="e#40#116#0" expanded="true" />
+                <element signature="e#113#179#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -125,9 +119,11 @@
       <file leaf-file-name="CommandHandlerRegistry.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/cqrs/CommandHandlerRegistry.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="22" column="1" lean-forward="false" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
-              <folding />
+            <state relative-caret-position="135">
+              <caret line="9" column="55" lean-forward="false" selection-start-line="9" selection-start-column="41" selection-end-line="9" selection-end-column="55" />
+              <folding>
+                <element signature="e#9#76#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -144,6 +140,7 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>flow-</find>
+      <find>getCommandType</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -172,16 +169,20 @@
         <option value="$PROJECT_DIR$/src/cqrs/Command.js" />
         <option value="$PROJECT_DIR$/src/cqrs/CommandHandler.js" />
         <option value="$PROJECT_DIR$/.flowconfig" />
-        <option value="$PROJECT_DIR$/src/cqrs/command-handlers/ChangeRestaurantNameHandler.test.js" />
-        <option value="$PROJECT_DIR$/src/cqrs/CommandHandlerRegistry.test.js" />
         <option value="$PROJECT_DIR$/.babelrc" />
         <option value="$PROJECT_DIR$/package.json" />
-        <option value="$PROJECT_DIR$/src/cqrs/command-handlers/ChangeRestaurantNameHandler.js" />
-        <option value="$PROJECT_DIR$/src/cqrs/commands/ChangeRestaurantName.js" />
+        <option value="$PROJECT_DIR$/src/cqrs/testing.js" />
         <option value="$PROJECT_DIR$/src/cqrs/CommandHandlerRegistry.js" />
         <option value="$PROJECT_DIR$/src/cqrs/commands/Command.js" />
-        <option value="$PROJECT_DIR$/src/cqrs/testing.js" />
         <option value="$PROJECT_DIR$/src/cqrs/command-handlers/CommandHandler.js" />
+        <option value="$PROJECT_DIR$/src/cqrs/command-handlers/ChangeRestaurantNameHandler.js" />
+        <option value="$PROJECT_DIR$/src/cqrs/command-handlers/ChangeRestaurantNameHandler.test.js" />
+        <option value="$PROJECT_DIR$/src/cqrs/commands/ChangeRestaurantName.js" />
+        <option value="$PROJECT_DIR$/src/cqrs/commands/ChangeRestaurantName.test.js" />
+        <option value="$PROJECT_DIR$/src/cqrs/CommandHandlerRegistry.test.js" />
+        <option value="$PROJECT_DIR$/src/eventsourcing/EventHandler.js" />
+        <option value="$PROJECT_DIR$/src/eventsourcing/Event.js" />
+        <option value="$PROJECT_DIR$/src/eventsourcing/EventHandlerRegistry.js" />
         <option value="$PROJECT_DIR$/src/cqrs/test.js" />
       </list>
     </option>
@@ -260,8 +261,7 @@
               <item name="node-test" type="b2602c69:ProjectViewProjectNode" />
               <item name="node-test" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="cqrs" type="462c0819:PsiDirectoryNode" />
-              <item name="commands" type="462c0819:PsiDirectoryNode" />
+              <item name="eventsourcing" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -286,13 +286,15 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/cqrs" />
       <recent name="$PROJECT_DIR$/src/cqrs/command-handlers" />
       <recent name="$PROJECT_DIR$/src/cqrs/commands" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/cqrs/change-restaurant-name" />
+      <recent name="$PROJECT_DIR$/src/cqrs/commands" />
       <recent name="$PROJECT_DIR$/src/cqrs/command-handlers" />
       <recent name="$PROJECT_DIR$/src/cqrs" />
-      <recent name="$PROJECT_DIR$/src/cqrs/commands" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -307,7 +309,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Jest.test">
+  <component name="RunManager" selected="Jest.ChangeRestaurantName.test.js">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="WIDTH" value="400" />
       <option name="HEIGHT" value="300" />
@@ -348,15 +350,45 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="getCommandHandler should get command handler from registry" type="JavaScriptTestRunnerJest" factoryName="Jest" temporary="true" nameIsGenerated="true">
+    <configuration name="ChangeRestaurantName.test.js" type="JavaScriptTestRunnerJest" factoryName="Jest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST_FILE" />
+      <test-file value="$PROJECT_DIR$/src/cqrs/commands/ChangeRestaurantName.test.js" />
+    </configuration>
+    <configuration name="commandType should be set to ChangeRestaurantName" type="JavaScriptTestRunnerJest" factoryName="Jest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
       <node-options value="" />
       <working-dir value="$PROJECT_DIR$" />
       <envs />
       <scope-kind value="TEST" />
-      <test-file value="$PROJECT_DIR$/src/cqrs/CommandHandlerRegistry.test.js" />
+      <test-file value="$PROJECT_DIR$/src/cqrs/commands/ChangeRestaurantName.test.js" />
       <test-names>
-        <test-name value="getCommandHandler should get command handler from registry" />
+        <test-name value="commandType should be set to ChangeRestaurantName" />
+      </test-names>
+    </configuration>
+    <configuration name="commandType should be set to class name" type="JavaScriptTestRunnerJest" factoryName="Jest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/src/cqrs/commands/ChangeRestaurantName.test.js" />
+      <test-names>
+        <test-name value="commandType should be set to class name" />
+      </test-names>
+    </configuration>
+    <configuration name="handle should handle command" type="JavaScriptTestRunnerJest" factoryName="Jest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/src/cqrs/command-handlers/ChangeRestaurantNameHandler.test.js" />
+      <test-names>
+        <test-name value="handle should handle command" />
       </test-names>
     </configuration>
     <configuration name="test" type="JavaScriptTestRunnerJest" factoryName="Jest" temporary="true" nameIsGenerated="true">
@@ -410,14 +442,20 @@
       <option name="PROGRAM_PARAMETERS" />
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
-    <list size="2">
-      <item index="0" class="java.lang.String" itemvalue="Jest.getCommandHandler should get command handler from registry" />
-      <item index="1" class="java.lang.String" itemvalue="Jest.test" />
+    <list size="5">
+      <item index="0" class="java.lang.String" itemvalue="Jest.test" />
+      <item index="1" class="java.lang.String" itemvalue="Jest.handle should handle command" />
+      <item index="2" class="java.lang.String" itemvalue="Jest.commandType should be set to class name" />
+      <item index="3" class="java.lang.String" itemvalue="Jest.commandType should be set to ChangeRestaurantName" />
+      <item index="4" class="java.lang.String" itemvalue="Jest.ChangeRestaurantName.test.js" />
     </list>
     <recent_temporary>
-      <list size="2">
-        <item index="0" class="java.lang.String" itemvalue="Jest.test" />
-        <item index="1" class="java.lang.String" itemvalue="Jest.getCommandHandler should get command handler from registry" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Jest.ChangeRestaurantName.test.js" />
+        <item index="1" class="java.lang.String" itemvalue="Jest.commandType should be set to ChangeRestaurantName" />
+        <item index="2" class="java.lang.String" itemvalue="Jest.commandType should be set to class name" />
+        <item index="3" class="java.lang.String" itemvalue="Jest.handle should handle command" />
+        <item index="4" class="java.lang.String" itemvalue="Jest.test" />
       </list>
     </recent_temporary>
   </component>
@@ -439,48 +477,47 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1523388808257</updated>
-      <workItem from="1523388810301" duration="13704000" />
+      <workItem from="1523388810301" duration="18907000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="getCommandHandler_should_get_command_handler_from_registry - 2018.04.11 at 00h 12m 36s.xml">
-      <configuration name="getCommandHandler should get command handler from registry" configurationId="JavaScriptTestRunnerJest" />
+    <history-entry file="ChangeRestaurantName_test_js - 2018.04.11 at 03h 01m 34s.xml">
+      <configuration name="ChangeRestaurantName.test.js" configurationId="JavaScriptTestRunnerJest" />
     </history-entry>
-    <history-entry file="getCommandHandler_should_get_command_handler_from_registry - 2018.04.11 at 00h 14m 26s.xml">
-      <configuration name="getCommandHandler should get command handler from registry" configurationId="JavaScriptTestRunnerJest" />
+    <history-entry file="ChangeRestaurantName_test_js - 2018.04.11 at 03h 01m 49s.xml">
+      <configuration name="ChangeRestaurantName.test.js" configurationId="JavaScriptTestRunnerJest" />
     </history-entry>
-    <history-entry file="getCommandHandler_should_get_command_handler_from_registry - 2018.04.11 at 00h 24m 13s.xml">
-      <configuration name="getCommandHandler should get command handler from registry" configurationId="JavaScriptTestRunnerJest" />
+    <history-entry file="commandType_should_be_set_to_ChangeRestaurantName - 2018.04.11 at 02h 56m 34s.xml">
+      <configuration name="commandType should be set to ChangeRestaurantName" configurationId="JavaScriptTestRunnerJest" />
     </history-entry>
-    <history-entry file="test - 2018.04.11 at 01h 11m 01s.xml">
-      <configuration name="test" configurationId="JavaScriptTestRunnerJest" />
+    <history-entry file="commandType_should_be_set_to_class_name - 2018.04.11 at 02h 55m 29s.xml">
+      <configuration name="commandType should be set to class name" configurationId="JavaScriptTestRunnerJest" />
     </history-entry>
-    <history-entry file="test - 2018.04.11 at 01h 11m 13s.xml">
-      <configuration name="test" configurationId="JavaScriptTestRunnerJest" />
+    <history-entry file="commandType_should_be_set_to_class_name - 2018.04.11 at 02h 56m 02s.xml">
+      <configuration name="commandType should be set to class name" configurationId="JavaScriptTestRunnerJest" />
     </history-entry>
-    <history-entry file="test - 2018.04.11 at 01h 11m 21s.xml">
-      <configuration name="test" configurationId="JavaScriptTestRunnerJest" />
+    <history-entry file="commandType_should_be_set_to_class_name - 2018.04.11 at 02h 56m 09s.xml">
+      <configuration name="commandType should be set to class name" configurationId="JavaScriptTestRunnerJest" />
     </history-entry>
-    <history-entry file="test - 2018.04.11 at 01h 11m 38s.xml">
-      <configuration name="test" configurationId="JavaScriptTestRunnerJest" />
+    <history-entry file="handle_should_handle_command - 2018.04.11 at 02h 42m 48s.xml">
+      <configuration name="handle should handle command" configurationId="JavaScriptTestRunnerJest" />
     </history-entry>
-    <history-entry file="test - 2018.04.11 at 01h 11m 53s.xml">
-      <configuration name="test" configurationId="JavaScriptTestRunnerJest" />
+    <history-entry file="handle_should_handle_command - 2018.04.11 at 02h 43m 05s.xml">
+      <configuration name="handle should handle command" configurationId="JavaScriptTestRunnerJest" />
     </history-entry>
-    <history-entry file="test - 2018.04.11 at 01h 13m 31s.xml">
-      <configuration name="test" configurationId="JavaScriptTestRunnerJest" />
+    <history-entry file="handle_should_handle_command - 2018.04.11 at 02h 43m 44s.xml">
+      <configuration name="handle should handle command" configurationId="JavaScriptTestRunnerJest" />
     </history-entry>
-    <history-entry file="test - 2018.04.11 at 01h 35m 35s.xml">
-      <configuration name="test" configurationId="JavaScriptTestRunnerJest" />
+    <history-entry file="handle_should_handle_command - 2018.04.11 at 02h 49m 33s.xml">
+      <configuration name="handle should handle command" configurationId="JavaScriptTestRunnerJest" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13704000" />
+    <option name="totallyTimeSpent" value="18907000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="135" y="23" width="1305" height="794" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -495,7 +532,7 @@
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Flow" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33570862" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33570862" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -554,32 +591,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/cqrs/command-handlers/ChangeRestaurantNameHandler.test.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="15" lean-forward="false" selection-start-line="11" selection-start-column="15" selection-end-line="11" selection-end-column="15" />
-          <folding>
-            <element signature="e#40#116#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cqrs/commands/ChangeRestaurantName.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="1" lean-forward="false" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cqrs/commands/Command.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="1" lean-forward="false" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/cqrs/CommandType.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
@@ -588,46 +599,118 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/cqrs/CommandHandlerRegistry.test.js">
+    <entry file="file://$PROJECT_DIR$/src/eventsourcing/EventHandler.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="8" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-          <folding>
-            <element signature="e#40#106#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/cqrs/command-handlers/ChangeRestaurantNameHandler.js">
+    <entry file="file://$PROJECT_DIR$/src/eventsourcing/Event.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/eventsourcing/EventHandlerRegistry.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cqrs/commands/ChangeRestaurantName.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
-          <caret line="4" column="59" lean-forward="false" selection-start-line="4" selection-start-column="59" selection-end-line="4" selection-end-column="59" />
-          <folding>
-            <element signature="e#9#59#0" expanded="true" />
-          </folding>
+          <caret line="4" column="59" lean-forward="false" selection-start-line="4" selection-start-column="39" selection-end-line="4" selection-end-column="59" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/cqrs/CommandHandlerRegistry.js">
+    <entry file="file://$PROJECT_DIR$/src/cqrs/commands/ChangeRestaurantName.test.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="1" lean-forward="false" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
+        <state relative-caret-position="255">
+          <caret line="17" column="36" lean-forward="false" selection-start-line="17" selection-start-column="36" selection-end-line="17" selection-end-column="36" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/cqrs/command-handlers/CommandHandler.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+        <state relative-caret-position="60">
+          <caret line="4" column="17" lean-forward="false" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+          <folding>
+            <element signature="e#9#55#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cqrs/commands/Command.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="13" lean-forward="false" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cqrs/command-handlers/ChangeRestaurantNameHandler.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="58" lean-forward="false" selection-start-line="6" selection-start-column="58" selection-end-line="6" selection-end-column="58" />
+          <folding>
+            <element signature="e#9#59#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cqrs/command-handlers/ChangeRestaurantNameHandler.test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="30" lean-forward="false" selection-start-line="1" selection-start-column="30" selection-end-line="1" selection-end-column="30" />
+          <folding>
+            <element signature="e#40#116#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/cqrs/test.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="248">
-          <caret line="24" column="32" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
+        <state relative-caret-position="324">
+          <caret line="40" column="35" lean-forward="false" selection-start-line="40" selection-start-column="35" selection-end-line="40" selection-end-column="35" />
+          <folding>
+            <element signature="e#113#179#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cqrs/CommandHandlerRegistry.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="55" lean-forward="false" selection-start-line="9" selection-start-column="41" selection-end-line="9" selection-end-column="55" />
+          <folding>
+            <element signature="e#9#76#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cqrs/CommandHandlerRegistry.test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding>
+            <element signature="e#40#106#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cqrs/change-restaurant-name/ChangeRestaurantName.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="44" lean-forward="true" selection-start-line="1" selection-start-column="44" selection-end-line="1" selection-end-column="44" />
           <folding />
         </state>
       </provider>

@@ -9,7 +9,7 @@ it('addCommandHandler should add command handler to registry', () => {
     const commandHandler = new ChangeRestaurantNameHandler();
 
     // When
-    registry.addCommandHandler('ChangeRestaurantName', commandHandler);
+    registry.addCommandHandler(commandHandler);
 
     // Then
     expect(registry.registry['ChangeRestaurantName'])
