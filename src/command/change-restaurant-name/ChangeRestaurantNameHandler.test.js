@@ -1,10 +1,9 @@
 // @flow
 const { it, expect } = global;
 import { ChangeRestaurantNameHandler } from './ChangeRestaurantNameHandler';
-import { ChangeRestaurantName } from '../commands/ChangeRestaurantName';
+import { ChangeRestaurantName } from './ChangeRestaurantName';
 
 it('handle should handle command', () => {
-
     // Given
     const handler = new ChangeRestaurantNameHandler();
     const command = new ChangeRestaurantName({

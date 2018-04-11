@@ -1,8 +1,8 @@
 // @flow
-import { CommandHandler } from './CommandHandler';
-import { Command } from '../commands/Command';
-import type { CommandType } from '../commands/Command';
-import { ChangeRestaurantName } from '../commands/ChangeRestaurantName';
+import { CommandHandler } from '../CommandHandler';
+import type { CommandType } from '../Command';
+import { Command } from '../Command';
+import { ChangeRestaurantName } from './ChangeRestaurantName';
 
 export class ChangeRestaurantNameHandler implements CommandHandler {
 

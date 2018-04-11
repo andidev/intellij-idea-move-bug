@@ -1,7 +1,7 @@
 // @flow
 const { it, expect } = global;
 import { CommandHandlerRegistry } from './CommandHandlerRegistry';
-import { ChangeRestaurantNameHandler } from './command-handlers/ChangeRestaurantNameHandler';
+import { ChangeRestaurantNameHandler } from './change-restaurant-name/ChangeRestaurantNameHandler';
 
 it('addCommandHandler should add command handler to registry', () => {
     // Given

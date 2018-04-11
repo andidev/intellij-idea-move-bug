@@ -1,6 +1,6 @@
 // @flow
-import { CommandHandler } from './command-handlers/CommandHandler';
-import type { CommandType } from './commands/Command';
+import { CommandHandler } from './CommandHandler';
+import type { CommandType } from './Command';
 
 export class CommandHandlerRegistry {
 
