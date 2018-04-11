@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bf5d5f56-e513-424e-9419-7fe6e3e6a438" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/src/command/change-restaurant-name/ChangeRestaurantNameHandler.test.js" afterPath="$PROJECT_DIR$/src/command/change-restaurant-name/ChangeRestaurantNameHandler.test.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/command/RestaurantId.js" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -13,21 +14,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="ChangeRestaurantName.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/command/change-restaurant-name/ChangeRestaurantName.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="13" column="16" lean-forward="true" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="16" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="ChangeRestaurantName.test.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/command/change-restaurant-name/ChangeRestaurantName.test.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="13" lean-forward="false" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+            <state relative-caret-position="210">
+              <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -43,7 +34,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CommandHandlerRegistry.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="CommandHandlerRegistry.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/command/CommandHandlerRegistry.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="30">
@@ -63,34 +54,54 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="EventHandler.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/event/EventHandler.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="EventHandlerRegistry.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/event/EventHandlerRegistry.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="CommandHandlerRegistry.test.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/command/CommandHandlerRegistry.test.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+            <state relative-caret-position="418">
+              <caret line="30" column="3" lean-forward="true" selection-start-line="30" selection-start-column="3" selection-end-line="30" selection-end-column="3" />
               <folding>
                 <element signature="e#40#106#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RestaurantId.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/command/RestaurantId.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ChangeRestaurantName.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/command/change-restaurant-name/ChangeRestaurantName.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="195">
+              <caret line="13" column="16" lean-forward="true" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="16" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="yarn.lock" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/yarn.lock">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/package.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="19" column="18" lean-forward="false" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -102,18 +113,6 @@
               <caret line="4" column="62" lean-forward="false" selection-start-line="4" selection-start-column="62" selection-end-line="4" selection-end-column="62" />
               <folding>
                 <element signature="e#9#60#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ChangeRestaurantNameHandler.test.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/command/change-restaurant-name/ChangeRestaurantNameHandler.test.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="42" lean-forward="false" selection-start-line="5" selection-start-column="42" selection-end-line="5" selection-end-column="42" />
-              <folding>
-                <element signature="e#40#116#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -160,7 +159,6 @@
         <option value="$PROJECT_DIR$/src/cqrs/Command.js" />
         <option value="$PROJECT_DIR$/.flowconfig" />
         <option value="$PROJECT_DIR$/.babelrc" />
-        <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/src/cqrs/testing.js" />
         <option value="$PROJECT_DIR$/src/cqrs/commands/Command.js" />
         <option value="$PROJECT_DIR$/src/cqrs/command-handlers/CommandHandler.js" />
@@ -180,6 +178,10 @@
         <option value="$PROJECT_DIR$/src/cqrs/CommandHandlerRegistry.test.js" />
         <option value="$PROJECT_DIR$/src/cqrs/test.js" />
         <option value="$PROJECT_DIR$/src/command/change-restaurant-name/ChangeRestaurantNameHandler.test.js" />
+        <option value="$PROJECT_DIR$/src/command/RestaurantIdTest.js" />
+        <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/src/command/RestaurantId.test.js" />
+        <option value="$PROJECT_DIR$/src/command/RestaurantId.js" />
       </list>
     </option>
   </component>
@@ -276,13 +278,14 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/command" />
+      <recent name="$PROJECT_DIR$/src/command/change-restaurant-name" />
       <recent name="$PROJECT_DIR$/src/event" />
       <recent name="$PROJECT_DIR$/src" />
       <recent name="$PROJECT_DIR$/src/cqrs/change-restaurant-name" />
-      <recent name="$PROJECT_DIR$/src/cqrs/commands" />
-      <recent name="$PROJECT_DIR$/src/cqrs/command-handlers" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/command" />
       <recent name="$PROJECT_DIR$/src/cqrs" />
       <recent name="$PROJECT_DIR$/src/cqrs/change-restaurant-name" />
       <recent name="$PROJECT_DIR$/src/cqrs/command-handlers" />
@@ -301,7 +304,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Jest.ChangeRestaurantName.test.js">
+  <component name="RunManager" selected="Jest.RestaurantId (1)">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="WIDTH" value="400" />
       <option name="HEIGHT" value="300" />
@@ -350,6 +353,28 @@
       <scope-kind value="TEST_FILE" />
       <test-file value="$PROJECT_DIR$/src/cqrs/commands/ChangeRestaurantName.test.js" />
     </configuration>
+    <configuration name="RestaurantId (1)" type="JavaScriptTestRunnerJest" factoryName="Jest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/src/command/RestaurantId.test.js" />
+      <test-names>
+        <test-name value="RestaurantId" />
+      </test-names>
+    </configuration>
+    <configuration name="RestaurantId" type="JavaScriptTestRunnerJest" factoryName="Jest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/src/command/RestaurantIdTest.js" />
+      <test-names>
+        <test-name value="RestaurantId" />
+      </test-names>
+    </configuration>
     <configuration name="commandType should be set to ChangeRestaurantName" type="JavaScriptTestRunnerJest" factoryName="Jest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
       <node-options value="" />
@@ -370,28 +395,6 @@
       <test-file value="$PROJECT_DIR$/src/cqrs/commands/ChangeRestaurantName.test.js" />
       <test-names>
         <test-name value="commandType should be set to class name" />
-      </test-names>
-    </configuration>
-    <configuration name="handle should handle command" type="JavaScriptTestRunnerJest" factoryName="Jest" temporary="true" nameIsGenerated="true">
-      <node-interpreter value="project" />
-      <node-options value="" />
-      <working-dir value="$PROJECT_DIR$" />
-      <envs />
-      <scope-kind value="TEST" />
-      <test-file value="$PROJECT_DIR$/src/cqrs/command-handlers/ChangeRestaurantNameHandler.test.js" />
-      <test-names>
-        <test-name value="handle should handle command" />
-      </test-names>
-    </configuration>
-    <configuration name="test" type="JavaScriptTestRunnerJest" factoryName="Jest" temporary="true" nameIsGenerated="true">
-      <node-interpreter value="project" />
-      <node-options value="" />
-      <working-dir value="$PROJECT_DIR$" />
-      <envs />
-      <scope-kind value="TEST" />
-      <test-file value="$PROJECT_DIR$/src/cqrs/test.js" />
-      <test-names>
-        <test-name value="test" />
       </test-names>
     </configuration>
     <configuration default="true" type="Remote" factoryName="Remote">
@@ -435,19 +438,19 @@
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Jest.test" />
-      <item index="1" class="java.lang.String" itemvalue="Jest.handle should handle command" />
-      <item index="2" class="java.lang.String" itemvalue="Jest.commandType should be set to class name" />
-      <item index="3" class="java.lang.String" itemvalue="Jest.commandType should be set to ChangeRestaurantName" />
-      <item index="4" class="java.lang.String" itemvalue="Jest.ChangeRestaurantName.test.js" />
+      <item index="0" class="java.lang.String" itemvalue="Jest.commandType should be set to class name" />
+      <item index="1" class="java.lang.String" itemvalue="Jest.commandType should be set to ChangeRestaurantName" />
+      <item index="2" class="java.lang.String" itemvalue="Jest.ChangeRestaurantName.test.js" />
+      <item index="3" class="java.lang.String" itemvalue="Jest.RestaurantId" />
+      <item index="4" class="java.lang.String" itemvalue="Jest.RestaurantId (1)" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Jest.ChangeRestaurantName.test.js" />
-        <item index="1" class="java.lang.String" itemvalue="Jest.commandType should be set to ChangeRestaurantName" />
-        <item index="2" class="java.lang.String" itemvalue="Jest.commandType should be set to class name" />
-        <item index="3" class="java.lang.String" itemvalue="Jest.handle should handle command" />
-        <item index="4" class="java.lang.String" itemvalue="Jest.test" />
+        <item index="0" class="java.lang.String" itemvalue="Jest.RestaurantId (1)" />
+        <item index="1" class="java.lang.String" itemvalue="Jest.RestaurantId" />
+        <item index="2" class="java.lang.String" itemvalue="Jest.ChangeRestaurantName.test.js" />
+        <item index="3" class="java.lang.String" itemvalue="Jest.commandType should be set to ChangeRestaurantName" />
+        <item index="4" class="java.lang.String" itemvalue="Jest.commandType should be set to class name" />
       </list>
     </recent_temporary>
   </component>
@@ -471,6 +474,14 @@
       <updated>1523388808257</updated>
       <workItem from="1523388810301" duration="18907000" />
     </task>
+    <task id="LOCAL-00001" summary="Remove error on np flow">
+      <created>1523473335733</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1523473335733</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -479,6 +490,18 @@
     </history-entry>
     <history-entry file="ChangeRestaurantName_test_js - 2018.04.11 at 03h 01m 49s.xml">
       <configuration name="ChangeRestaurantName.test.js" configurationId="JavaScriptTestRunnerJest" />
+    </history-entry>
+    <history-entry file="RestaurantId - 2018.04.11 at 20h 57m 45s.xml">
+      <configuration name="RestaurantId" configurationId="JavaScriptTestRunnerJest" />
+    </history-entry>
+    <history-entry file="RestaurantId_(1) - 2018.04.11 at 20h 58m 16s.xml">
+      <configuration name="RestaurantId (1)" configurationId="JavaScriptTestRunnerJest" />
+    </history-entry>
+    <history-entry file="RestaurantId_(1) - 2018.04.11 at 20h 58m 26s.xml">
+      <configuration name="RestaurantId (1)" configurationId="JavaScriptTestRunnerJest" />
+    </history-entry>
+    <history-entry file="RestaurantId_(1) - 2018.04.11 at 21h 17m 15s.xml">
+      <configuration name="RestaurantId (1)" configurationId="JavaScriptTestRunnerJest" />
     </history-entry>
     <history-entry file="commandType_should_be_set_to_ChangeRestaurantName - 2018.04.11 at 02h 56m 34s.xml">
       <configuration name="commandType should be set to ChangeRestaurantName" configurationId="JavaScriptTestRunnerJest" />
@@ -492,24 +515,13 @@
     <history-entry file="commandType_should_be_set_to_class_name - 2018.04.11 at 02h 56m 09s.xml">
       <configuration name="commandType should be set to class name" configurationId="JavaScriptTestRunnerJest" />
     </history-entry>
-    <history-entry file="handle_should_handle_command - 2018.04.11 at 02h 42m 48s.xml">
-      <configuration name="handle should handle command" configurationId="JavaScriptTestRunnerJest" />
-    </history-entry>
-    <history-entry file="handle_should_handle_command - 2018.04.11 at 02h 43m 05s.xml">
-      <configuration name="handle should handle command" configurationId="JavaScriptTestRunnerJest" />
-    </history-entry>
-    <history-entry file="handle_should_handle_command - 2018.04.11 at 02h 43m 44s.xml">
-      <configuration name="handle should handle command" configurationId="JavaScriptTestRunnerJest" />
-    </history-entry>
-    <history-entry file="handle_should_handle_command - 2018.04.11 at 02h 49m 33s.xml">
-      <configuration name="handle should handle command" configurationId="JavaScriptTestRunnerJest" />
-    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19392000" />
+    <option name="totallyTimeSpent" value="21353000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="135" y="23" width="1305" height="794" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -519,13 +531,13 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32904148" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32904148" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32904148" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32904148" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Flow" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33570862" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33570862" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -547,35 +559,15 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Remove error on np flow" />
+    <option name="LAST_COMMIT_MESSAGE" value="Remove error on np flow" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/event/EventHandler.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/event/Event.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/event/EventHandlerRegistry.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/command/change-restaurant-name/ChangeRestaurantName.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -836,14 +828,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/cqrs/CommandType.js" />
     <entry file="file://$PROJECT_DIR$/src/command/change-restaurant-name/ChangeRestaurantName.js">
       <provider selected="true" editor-type-id="text-editor">
@@ -885,48 +869,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/command/change-restaurant-name/ChangeRestaurantName.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="16" lean-forward="true" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/command/change-restaurant-name/ChangeRestaurantNameHandler.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="62" lean-forward="false" selection-start-line="4" selection-start-column="62" selection-end-line="4" selection-end-column="62" />
-          <folding>
-            <element signature="e#9#60#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/command/change-restaurant-name/ChangeRestaurantNameHandler.test.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="5" column="42" lean-forward="false" selection-start-line="5" selection-start-column="42" selection-end-line="5" selection-end-column="42" />
           <folding>
             <element signature="e#40#116#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/command/change-restaurant-name/ChangeRestaurantName.test.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="13" lean-forward="false" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/command/CommandHandlerRegistry.test.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-          <folding>
-            <element signature="e#40#106#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -951,6 +899,74 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="2" column="35" lean-forward="false" selection-start-line="2" selection-start-column="35" selection-end-line="2" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/command/CommandHandlerRegistry.test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="30" column="3" lean-forward="true" selection-start-line="30" selection-start-column="3" selection-end-line="30" selection-end-column="3" />
+          <folding>
+            <element signature="e#40#106#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/command/change-restaurant-name/ChangeRestaurantName.test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/command/change-restaurant-name/ChangeRestaurantNameHandler.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="62" lean-forward="false" selection-start-line="4" selection-start-column="62" selection-end-line="4" selection-end-column="62" />
+          <folding>
+            <element signature="e#9#60#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="18" lean-forward="false" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yarn.lock">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/command/RestaurantId.test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="29" lean-forward="false" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/command/change-restaurant-name/ChangeRestaurantName.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="16" lean-forward="true" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/command/RestaurantId.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
           <folding />
         </state>
       </provider>
